@@ -12,6 +12,9 @@ int main(){
         case '-' :
             cout << "Result : " << a - b ;
             break;
+        case '*' :
+            cout << "Result : " << a * b ;
+            break;
     }
 
 }
