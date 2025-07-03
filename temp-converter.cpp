@@ -8,6 +8,12 @@ int main(){
     if(unit=='C' || unit=='c'){
         cout<< "Fahrenheit :" << (temp*9/5)+32 <<endl;
     }
+    else if(unit=='F' || unit =='f'){
+        cout<<"celsius :" << (temp-32)* 5/9 << endl;
+    }
+    else{
+        cout <<" invalid unit\n";
+    }
     
     return 0;
     
