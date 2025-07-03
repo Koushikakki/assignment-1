@@ -23,6 +23,19 @@ This repository contains a collection of simple and useful C++ scripts designed 
 ---
 
 
+## How to Compile and Run
+
+1. Open a terminal and navigate to the `scripts` folder:
+
+   
+   cd scripts
+
+
+2. Compile the desired script. For example:
+
+
+    g++ calculator.cpp -o calculator
+    ./calculator
 
 
 
