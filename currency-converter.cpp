@@ -9,6 +9,12 @@ int main(){
     if ((from == "USD" || from == "usd") && (to == "INR" || to == "inr")) {
         cout << "Converted amount: " << amount * 85.69 << " INR" << endl;
     }
+    else if ((from == "INR" || from == "inr") && (to == "USD" || to == "usd")) {
+        cout << "Converted amount: " << amount / 85.69 << " USD" << endl;
+    }
+    else {
+        cout << "Invalid currency conversion\n";
+    }
     
 
     
