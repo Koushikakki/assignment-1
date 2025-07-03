@@ -10,3 +10,20 @@ This repository contains a collection of simple and useful C++ scripts designed 
         **Temperature Converter** - converts temperature between Celsius and Fahrenheit<br/>
         **Currency Converter** - converts currency between INR and USD<br/>
 
+
+
+
+##  Installations Required
+
+- A C++ compiler (e.g., `g++`)
+- A terminal or command prompt
+- Text editor or IDE (e.g., Visual Studio Code, Code::Blocks, etc.)
+
+
+---
+
+
+
+
+
+
