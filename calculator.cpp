@@ -18,6 +18,10 @@ int main(){
         case '/' :
             cout << "Result : " << a / b ;
             break;
+        default :
+            cout << "enter the valid operator" ;
+
     }
+    return 0;
 
 }
