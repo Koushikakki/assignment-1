@@ -1,8 +1,35 @@
-##This is the Readme file of the Main Branch.
+This branch contains a **Word Counter** utility script written in C++. It reads a text file and counts the number of words present in it. 
 
-This project contains utility scripts for every day tasks such as <br/>
-        **Calculator** - for basic arithmetic operations<br/>
-        **File word counter** - reads a text file and counts the number of words<br/>
-        **Temperature Converter** - converts temperature between Celsius and Fahrenheit<br/>
-        **Currency Converter** - converts currency between INR and USD<br/>
+---
 
+
+
+###  Features
+
+- Reads a text file line by line
+- Counts the total number of words
+- Handles missing file error
+
+---
+
+##  Requirements
+
+- A C++ compiler (e.g., `g++`)
+- Terminal or command prompt
+- A sample text file to test (e.g., `sample.txt`)
+
+---
+
+##  How to Compile and Run
+
+1. Open your terminal and navigate to the `scripts` directory:
+  
+   cd scripts
+   
+2. Compile the word counter script:
+
+       g++ word_counter.cpp -o word_counter
+
+3. Run the compiled program:
+
+       ./word_counter
