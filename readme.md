@@ -1,8 +1,33 @@
-##This is the Readme file of the Main Branch.
+This branch contains a Temperature Converter script written in C++. It converts temperature values between Celsius and Fahrenheit. 
 
-This project contains utility scripts for every day tasks such as <br/>
-        **Calculator** - for basic arithmetic operations<br/>
-        **File word counter** - reads a text file and counts the number of words<br/>
-        **Temperature Converter** - converts temperature between Celsius and Fahrenheit<br/>
-        **Currency Converter** - converts currency between INR and USD<br/>
+---
 
+
+
+###  Features
+
+- Convert Celsius to Fahrenheit
+- Convert Fahrenheit to Celsius
+
+---
+
+##  Requirements
+
+- A C++ compiler (e.g., `g++`)
+- Terminal or command prompt
+
+---
+
+##  How to Compile and Run
+
+1. Open your terminal and navigate to the `scripts` directory:
+   
+   cd scripts
+
+2. Compile the temperature converter script:
+
+       g++ temp_converter.cpp -o temp_converter
+
+3. Run the program:
+
+       ./temp_converter
